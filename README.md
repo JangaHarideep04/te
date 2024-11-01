@@ -63,7 +63,6 @@ This project consists of two stages:
 </a>
 
 Feel free to **connect on LinkedIn** and share your feedback on the project!  
-If you deploy the app, please share your opinion on LinkedIn along with the project link, and **tag me** to help spread the word among DevOps enthusiasts.
 
 ---
 
