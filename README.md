@@ -28,7 +28,7 @@ In this **DevOps project**, I demonstrate how to **deploy a ZOMATO Clone App** u
 [**ZOMATO Clone DevOps Project**](#)
 
 ### 📹 DevOps Project Video Link:  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](Updated Soon)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/GyoI6-I68aQ)
 
 ### 📺 Docker Playlist Video Link:  
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh)
