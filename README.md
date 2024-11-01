@@ -1,83 +1,40 @@
-# <span style="font-weight:bold; color:#FF6347;">🚀 DevOps Project on Deployment of ZOMATO Clone App 🍽️</span>
+# 🚀 **DevOps Real-time Project: Swiggy Clone App Deployment**
+
+In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clone App** using various modern tools and services in the DevOps ecosystem.
+
+## 🛠️ Tools & Services Used:
+
+1. **Terraform** ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+2. **GitHub** ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+3. **Jenkins** ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+4. **SonarQube** ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+5. **OWASP** ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
+6. **Trivy** ![Trivy](https://img.shields.io/badge/Trivy-00979D?style=flat-square&logo=trivy&logoColor=white)
+7. **Docker & DockerHub** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![DockerHub](https://img.shields.io/badge/DockerHub-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
-## Tools used:
-<p align="center">
-  <img src="https://img.icons8.com/nolan/64/github.png" alt="GitHub" />
-  <img src="https://img.icons8.com/color/64/jenkins.png" alt="Jenkins" />
-  <img src="https://img.icons8.com/fluency/64/sonarqube.png" alt="SonarQube" />
-  <img src="https://img.icons8.com/color/64/docker.png" alt="Docker" />
-  <img src="https://img.icons8.com/color/64/kubernetes.png" alt="Kubernetes" />
-  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/64/prometheus.png" alt="Prometheus" />
-  <img src="https://img.icons8.com/color/64/grafana.png" alt="Grafana" />
-  <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/64/argocd.png" alt="ArgoCD" />
-</p>
+### 📹 Video Link: [**Click Here**](https://youtu.be/x55z7rk0NAU?si=gM1_61wUoq3ChiHD)
+
+### 📂 Terraform Script Repository: [**Terraform Script for Swiggy Clone App**](https://github.com/KastroVKiran/Terraform-Script-Swiggy-Kastro.git)
+
+### 📺 Docker Playlist: [**Watch on YouTube**](https://youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh&si=c75uaxvjazr-mIdw)
 
 ---
 
-### Project Overview
-This project consists of two stages:
+## About Me  
+<img src="https://media.licdn.com/dms/image/v2/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718971147172?e=1733356800&v=beta&t=bz-SXs7FHwIDqQ9xlPibErrGvpHDdAjMJEr9WqHsi9A" alt="Kastro Profile Image" width="150" height="150" style="border-radius:50%;">
 
-- **Stage 1** - Deployment of ZOMATO Clone App to Docker Container
-- **Stage 2** - Deployment of ZOMATO Clone App to a Kubernetes (K8S) Cluster with integrated Monitoring using Prometheus and Grafana
-
----
-
-## 🔗 Important Links:
-
-- **GitHub Repo Link:** [Click here](https://github.com/your-repo-link)
-- **DevOps Project Video:**  
-  <a href="https://www.youtube.com/watch?v=8C9immtbEwk&list=RDXffhn3CZ8lI&index=2&pp=8AUB">
-    <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
-  </a>
-- **Docker Playlist:**  
-  [![Docker Playlist](https://img.icons8.com/color/48/youtube-play.png)](https://www.youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh)
+**Kastro**    
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kastro-kiran/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/KastroVKiran)  
 
 ---
 
-## **Other DevOps Projects**:
+## 📢 **Share Your Experience!**
 
-- **SWIGGY App Project Video:**  
-  <a href="https://youtu.be/x55z7rk0NAU">
-    <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
-    <img src="https://img.icons8.com/color/48/swift.png" alt="SWIGGY" />
-  </a>
-- **SonarQube Setup Video:**  
-  <a href="https://youtu.be/ScdedztTaAU">
-    <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
-    <img src="https://img.icons8.com/color/48/sonarqube.png" alt="SonarQube" />
-  </a>
-- **Nexus Repository Setup Video:**  
-  <a href="https://youtu.be/opJAfDOCZuI">
-    <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
-    <img src="https://img.icons8.com/fluency/48/nexus.png" alt="Nexus" />
-  </a>
+If you've successfully deployed the **Swiggy Clone App** using this project, I'd love to hear about it!  
+- 📹 **Post your deployment video** and **tag me on LinkedIn**: [**Kastro Kiran**](https://www.linkedin.com/in/kastro-kiran/)
+- 💬 **Share your experience** of deploying the app and the tools you used.
 
----
-
-## **Connect with me**:
-
-<a href="https://www.linkedin.com/in/kastro-kiran/">
-  <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" />
-</a>
-
-Feel free to **connect on LinkedIn** and share your feedback on the project!  
-
----
-
-## 📸 **Meet Me**:
-
-<p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718971147172?e=1735776000&v=beta&t=HC_e0eOufPvf8XQ0P7iI9GDm9hBSIh5FwQaGsL_8ivo" alt="Profile Image" width="100" />
-</p>
-
----
-
-## 💬 **Feedback Request**:
-After deploying the app, please share your experience on LinkedIn and don't forget to **tag me**! Let's keep the learning spirit high and help this video reach more DevOps enthusiasts!
-
----
-
-**Happy Learning!** ✨
-
+> “DevOps is not just a job; it's a journey to continuously improve processes and automate solutions.” – **Kastro**
