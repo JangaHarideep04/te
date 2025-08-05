@@ -5,10 +5,10 @@ metadata:
   labels:
     app: zomato
 spec:
-  type: NodePort
-  ports:
-  - port: 3000
-    targetPort: 3000
-    nodePort: 30001
+  type: LoadBalancer
   selector:
-    app: LoadBalancer
+    app: zomato
+  ports:
+    - protocol: TCP
+      port: 80         # Exposes the service on port 80 (public)
+      targetPort: 3000 # Forwards traffic to pod's port 3000
