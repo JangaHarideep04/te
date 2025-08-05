@@ -1,68 +1,216 @@
-# 🚀 **DevOps Project: ZOMATO Clone App Deployment**
+# 📦 DevOps Project: Zomato Clone – CI/CD with Jenkins, Docker, Kubernetes, ArgoCD, and Terraform
 
-In this **DevOps project**, I demonstrate how to **deploy a ZOMATO Clone App** using a variety of modern DevOps tools and services.
-
-## 🛠️ Tools & Services Used:
-
-1. **GitHub** ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-2. **Jenkins** ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-3. **SonarQube** ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-4. **Docker** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-5. **Kubernetes** ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-6. **Prometheus** ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-7. **Grafana** ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-8. **ArgoCD** ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-9. **OWASP** ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-10. **Trivy** ![Trivy](https://img.shields.io/badge/Trivy-00979D?style=flat-square&logo=trivy&logoColor=white)
+This project demonstrates a full-stack DevOps pipeline using modern tools and practices. It includes CI/CD, containerization, infrastructure as code, code quality checks, and real-time monitoring.
 
 ---
 
-### Project Stages:
+## 📌 Project Overview
 
-1. **Stage 1** - Deployment of App to Docker Container
-2. **Stage 2** - Deployment of App to K8S Cluster with Monitoring
-
----
-
-### 📂 GitHub Repo Link:  
-[**ZOMATO Clone DevOps Project**](#)
-
-### 📹 DevOps Project Video Link:  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/GyoI6-I68aQ)
-
-### 📺 Docker Playlist Video Link:  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh)
+- **Frontend App:** Zomato Clone (Node.js)
+- **CI/CD Tool:** Jenkins
+- **Containerization:** Docker
+- **Orchestration:** Kubernetes (EKS)
+- **Infrastructure as Code:** Terraform
+- **GitOps:** ArgoCD
+- **Code Quality:** SonarQube, OWASP Dependency Check, Trivy
+- **Container Security:** Docker Scout
+- **Monitoring:** Prometheus + Grafana
+- **Email Alerts:** Jenkins Email Ext Plugin with Gmail SMTP
 
 ---
 
-## 📂 Other DevOps Projects
+## 📁 Project Structure
 
-### 🟠 **SWIGGY App Project**:  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/x55z7rk0NAU)
-
-### 🔵 **SonarQube Video Link**:  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=sonarqube&logoColor=white)](https://youtu.be/ScdedztTaAU)
-
-### 🟡 **Nexus Video Link**:  
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=nexus&logoColor=white)](https://youtu.be/opJAfDOCZuI)
-
----
-
-## Connect with me on LinkedIn:  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kastro-kiran/)
-
-## Join the WhatsApp Group for DevOps technical discussions!
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EGw6ZlwUHZc82cA0vXFnwm) 
+```
+DevOps-Project-Zomato-Kastro/
+├── Dockerfile
+├── deployment.yaml
+├── service.yaml
+├── jenkins-pipeline.groovy
+├── sonar-project.properties
+├── trivy.txt (generated)
+├── terraform/
+│   ├── main.tf
+│   └── ...
+└── README.md
+```
 
 ---
 
-### Feedback Request:  
+## 🔧 Tools Used
 
-After deploying the app, please share your opinion on LinkedIn along with the Project link and tag me on LinkedIn. Help the video reach wider DevOps enthusiasts.
+| Tool            | Purpose                              |
+|-----------------|--------------------------------------|
+| **Terraform**   | Provision VPC, EKS, EC2, IAM         |
+| **Jenkins**     | CI/CD pipeline automation            |
+| **Docker**      | App containerization                 |
+| **Kubernetes**  | Container orchestration (EKS)        |
+| **ArgoCD**      | GitOps-based deployment              |
+| **SonarQube**   | Code quality and static analysis     |
+| **OWASP Check** | Dependency scanning for vulnerabilities |
+| **Trivy**       | File system scanning for security    |
+| **Docker Scout**| Container security scan              |
+| **Prometheus**  | Metrics collection                   |
+| **Grafana**     | Visualization of metrics             |
+| **Gmail SMTP**  | Email notifications                  |
 
 ---
 
-## Happy learning!  
-<img src="https://media.licdn.com/dms/image/v2/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718971147172?e=1735776000&v=beta&t=HC_e0eOufPvf8XQ0P7iI9GDm9hBSIh5FwQaGsL_8ivo" alt="Kastro Profile Image" width="100" height="100" style="border-radius:50%;">
+## 🌐 Architecture Diagram
 
-KASTRO KIRAN V
+> You can generate and add a diagram using [draw.io](https://draw.io/) or [Lucidchart].
+
+High-level overview:
+
+- Terraform provisions AWS infrastructure (VPC, EKS, EC2)
+- Jenkins installed in EC2 (private subnet) with NAT Gateway
+- Node.js app is built & scanned in Jenkins
+- Docker image pushed to DockerHub
+- Kubernetes manifests managed in GitHub → auto-synced with ArgoCD
+- Monitoring with Prometheus & Grafana
+- Email alerts sent post-build with Trivy results
+
+---
+
+## 🚀 CI/CD Workflow (Jenkins Pipeline)
+
+### ✅ Stages:
+
+1. **Clean Workspace**
+2. **Checkout Code**
+3. **SonarQube Analysis**
+4. **Code Quality Gate**
+5. **Install Dependencies**
+6. **OWASP Dependency Check**
+7. **Trivy Scan**
+8. **Docker Build**
+9. **Push to DockerHub**
+10. **Docker Scout Scan**
+11. **Deploy Container**
+12. **Email Notification with Attachment (Trivy)**
+
+### 📧 Email Format:
+HTML-based mail with:
+- Project Name
+- Build Number
+- Build URL
+- Trivy Scan as attachment
+
+---
+
+## ⚙️ Key Jenkinsfile Snippet
+
+```groovy
+post {
+  always {
+    emailext attachLog: true,
+      subject: "'${currentBuild.result}'",
+      body: "...HTML content...",
+      to: 'jangaharidee@gmail.com',
+      mimeType: 'text/html',
+      attachmentsPattern: 'trivy.txt'
+  }
+}
+```
+
+---
+
+## 🛡️ Security Scans
+
+| Tool        | Scan Type                 |
+|-------------|---------------------------|
+| SonarQube   | Static Code Analysis      |
+| Trivy       | File System Vulnerability |
+| OWASP Check | Dependency Vulnerability  |
+| Docker Scout| Container Image Security  |
+
+---
+
+## 🚢 Kubernetes Deployment (ArgoCD)
+
+### Sample `service.yaml`
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: zomato
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 3000
+  selector:
+    app: LoadBalancer
+```
+
+### ArgoCD Sync Output:
+
+```
+kubectl get applications -n argocd
+NAME     SYNC STATUS   HEALTH STATUS
+zomoto   Synced        Healthy
+```
+
+---
+
+## 📊 Monitoring & Alerts
+
+- Prometheus scrapes metrics from Jenkins and Node app
+- Grafana dashboards visualize metrics
+- Email alerts triggered on every Jenkins build
+
+---
+
+## 🧱 Infrastructure (Terraform)
+
+Terraform modules include:
+
+- VPC with public/private subnets
+- NAT Gateway and Internet Gateway
+- EKS Cluster + Worker Nodes
+- EC2 instance for Jenkins
+
+---
+
+## 🔐 Email Notification Setup
+
+### Gmail SMTP Settings (Jenkins → Manage Jenkins → Email Ext Plugin):
+
+- SMTP Server: `smtp.gmail.com`
+- Port: `465`
+- SSL: Enabled
+- Auth: Enabled
+- User: `jangaharidee@gmail.com`
+- Password: **App Password**
+- Default Recipients: `jangaharidee@gmail.com`
+- Content Type: `HTML (text/html)`
+
+---
+
+## 📦 DockerHub
+
+Docker images pushed with tags:
+
+```
+harideep0412/zomato-<build_number>:latest
+```
+
+---
+
+## 💡 Future Enhancements
+
+- Add Helm chart for Zomato app
+- Setup Slack notifications
+- Use GitHub Actions for CI
+- Enable RBAC for Jenkins & ArgoCD
+- Automate Prometheus + Grafana using Helm
+
+---
+
+## 🙋‍♂️ Author
+
+**Harideep Janga**  
+DevOps Enthusiast | AWS | Jenkins | Kubernetes  
+📧 jangaharidee@gmail.com  
+🔗 [GitHub](https://github.com/JangaHarideep04)
