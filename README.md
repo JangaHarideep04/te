@@ -22,17 +22,99 @@ This project demonstrates a full-stack DevOps pipeline using modern tools and pr
 ## 📁 Project Structure
 
 ```
-DevOps-Project-Zomato-Kastro/
-├── Dockerfile
-├── deployment.yaml
-├── service.yaml
-├── jenkins-pipeline.groovy
-├── sonar-project.properties
-├── trivy.txt (generated)
-├── terraform/
-│   ├── main.tf
-│   └── ...
-└── README.md
+DevOps-Project-Zomato/
+C:.
+│   .gitignore
+│   Commands-Notes.txt
+│   Dockerfile
+│   Notes-pipeline.txt
+│   package-lock.json
+│   package.json
+│   README.md
+│   
+├───ec2-setup
+│       main.tf
+│       output.tf
+│       provision.tf
+│       variable.tf
+│
+├───eks_code
+│       eks.tf
+│       locals.tf
+│       provider.tf
+│       vpc.tf
+│
+├───Kubernetes
+│       deployment.yaml
+│       node-service.yaml
+│       service.yaml
+│
+├───pipeline-codes
+│       dockerimagepush
+│
+├───public
+│       favicon.ico
+│       index.html
+│       logo192.png
+│       logo512.png
+│       manifest.json
+│       robots.txt
+│
+└───src
+    │   App.js
+    │   app.scss
+    │   data.js
+    │   index.js
+    │
+    ├───assets
+    │   └───images
+    │           App-Store.png
+    │           BackGround.png
+    │           blackLogo.webp
+    │           collection1.webp
+    │           collection2.webp
+    │           collection3.webp
+    │           collection4.webp
+    │           Dine-Out.png
+    │           Favicon.png
+    │           Google-Play.png
+    │           Iphone.png
+    │           Night-Life.png
+    │           Online-Food.png
+    │           Zomato-Logo.png
+    │
+    └───components
+        ├───AccContainer
+        │       AccContainer.jsx
+        │       AccContainer.scss
+        │
+        ├───Accordian
+        │       Accordian.jsx
+        │       Accordin.scss
+        │
+        ├───Card
+        │       Card.jsx
+        │       Card.scss
+        │
+        ├───Cities
+        │       Cities.jsx
+        │       Cities.scss
+        │
+        ├───Collections
+        │       Collection.jsx
+        │       Collection.scss
+        │
+        ├───CTA
+        │       CTA.jsx
+        │       CTA.scss
+        │
+        ├───Footer
+        │       Footer.jsx
+        │       Footer.scss
+        │
+        └───Header
+                Header.jsx
+                Header.scss
 ```
 
 ---
@@ -89,6 +171,7 @@ High-level overview:
 10. **Docker Scout Scan**
 11. **Deploy Container**
 12. **Email Notification with Attachment (Trivy)**
+---
 ![jenkins](https://github.com/user-attachments/assets/6e596f6d-7ede-4568-9834-55ead4439cc9)
 ---
 
@@ -208,6 +291,8 @@ harideep0412/zomato-<build_number>:latest
 ![dockerhub](https://github.com/user-attachments/assets/55dd6967-1d6b-44ae-97a4-7c251ddc7376)
 
 ---
+
+
 ![zomoto](https://github.com/user-attachments/assets/dcbd853e-08a1-4958-9928-0e4753082626)
 ---
 
