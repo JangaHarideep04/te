@@ -58,7 +58,8 @@ DevOps-Project-Zomato-Kastro/
 
 ## 🌐 Architecture Diagram
 
-> You can generate and add a diagram using [draw.io](https://draw.io/) or [Lucidchart].
+> 
+<img width="1536" height="1024" alt="ChatGPT Image Aug 5, 2025, 08_59_30 PM" src="https://github.com/user-attachments/assets/7e3a49b6-83ed-4450-807b-60743075905a" />
 
 High-level overview:
 
@@ -88,6 +89,8 @@ High-level overview:
 10. **Docker Scout Scan**
 11. **Deploy Container**
 12. **Email Notification with Attachment (Trivy)**
+![jenkins](https://github.com/user-attachments/assets/6e596f6d-7ede-4568-9834-55ead4439cc9)
+---
 
 ### 📧 Email Format:
 HTML-based mail with:
@@ -125,8 +128,11 @@ post {
 | Docker Scout| Container Image Security  |
 
 ---
+![sonar](https://github.com/user-attachments/assets/c6809661-6c97-4ff8-af5b-7ea5b75c663a)
+---
 
 ## 🚢 Kubernetes Deployment (ArgoCD)
+![eks](https://github.com/user-attachments/assets/b8fac1f9-0fe3-4f6d-9dc8-434f1e1f4a90)
 
 ### Sample `service.yaml`
 
@@ -151,6 +157,7 @@ kubectl get applications -n argocd
 NAME     SYNC STATUS   HEALTH STATUS
 zomoto   Synced        Healthy
 ```
+![argocd](https://github.com/user-attachments/assets/a97723d1-3238-4775-b1df-19537774427c)
 
 ---
 
@@ -160,7 +167,9 @@ zomoto   Synced        Healthy
 - Grafana dashboards visualize metrics
 - Email alerts triggered on every Jenkins build
 
----
+---![grafana](https://github.com/user-attachments/assets/81ed2d41-812f-4792-aa13-fc780d7c9633)
+![prometheus](https://github.com/user-attachments/assets/5c80a7a8-485c-4027-b305-77075db85c0a)
+
 
 ## 🧱 Infrastructure (Terraform)
 
@@ -189,13 +198,17 @@ Terraform modules include:
 ---
 
 ## 📦 DockerHub
+![Uploading eks.jpg…]()
 
 Docker images pushed with tags:
 
 ```
 harideep0412/zomato-<build_number>:latest
 ```
+![dockerhub](https://github.com/user-attachments/assets/55dd6967-1d6b-44ae-97a4-7c251ddc7376)
 
+---
+![zomoto](https://github.com/user-attachments/assets/dcbd853e-08a1-4958-9928-0e4753082626)
 ---
 
 ## 💡 Future Enhancements
