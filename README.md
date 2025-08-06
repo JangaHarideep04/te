@@ -57,7 +57,7 @@ DevOps-Project-Zomato-Kastro/
 ---
 
 ## 🌐 Architecture Diagram
-
+---
 > 
 <img width="1536" height="1024" alt="ChatGPT Image Aug 5, 2025, 08_59_30 PM" src="https://github.com/user-attachments/assets/7e3a49b6-83ed-4450-807b-60743075905a" />
 
@@ -132,8 +132,9 @@ post {
 ---
 
 ## 🚢 Kubernetes Deployment (ArgoCD)
+---
 ![eks](https://github.com/user-attachments/assets/b8fac1f9-0fe3-4f6d-9dc8-434f1e1f4a90)
-
+---
 ### Sample `service.yaml`
 
 ```yaml
@@ -198,7 +199,6 @@ Terraform modules include:
 ---
 
 ## 📦 DockerHub
-![Uploading eks.jpg…]()
 
 Docker images pushed with tags:
 
